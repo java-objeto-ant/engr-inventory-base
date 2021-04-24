@@ -47,6 +47,5 @@ public class InvConstants {
     public static final String WHOLESALE_ORDER = "WsOr";
     public static final String WHOLESALE_REPLACAMENT = "WsRp";
     public static final String WHOLESALE_RETURN  = "WsRt";
-    
     public static final String WASTE_INV = "Wste";
 }

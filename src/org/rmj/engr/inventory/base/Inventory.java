@@ -15,15 +15,15 @@ import org.rmj.appdriver.agentfx.CommonUtils;
 import org.rmj.appdriver.agentfx.ui.showFXDialog;
 import org.rmj.engr.inventory.pojo.UnitInvSubUnit;
 import org.rmj.engr.inventory.pojo.UnitInventory;
-import org.rmj.cas.parameter.agent.XMBrand;
-import org.rmj.cas.parameter.agent.XMCategory;
-import org.rmj.cas.parameter.agent.XMCategoryLevel2;
-import org.rmj.cas.parameter.agent.XMCategoryLevel3;
-import org.rmj.cas.parameter.agent.XMCategoryLevel4;
-import org.rmj.cas.parameter.agent.XMColor;
-import org.rmj.cas.parameter.agent.XMInventoryType;
-import org.rmj.cas.parameter.agent.XMMeasure;
-import org.rmj.cas.parameter.agent.XMModel;
+import org.rmj.engr.parameter.agent.XMBrand;
+import org.rmj.engr.parameter.agent.XMCategory;
+import org.rmj.engr.parameter.agent.XMCategoryLevel2;
+import org.rmj.engr.parameter.agent.XMCategoryLevel3;
+import org.rmj.engr.parameter.agent.XMCategoryLevel4;
+import org.rmj.engr.parameter.agent.XMColor;
+import org.rmj.engr.parameter.agent.XMInventoryType;
+import org.rmj.engr.parameter.agent.XMMeasure;
+import org.rmj.engr.parameter.agent.XMModel;
 
 /**
  * Inventory BASE

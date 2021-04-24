@@ -33,9 +33,9 @@ import org.rmj.engr.inventory.others.pojo.UnitInvTransferDetailOthers;
 import org.rmj.engr.inventory.pojo.UnitInvMaster;
 import org.rmj.engr.inventory.pojo.UnitInvTransferDetail;
 import org.rmj.engr.inventory.pojo.UnitInvTransferMaster;
-import org.rmj.cas.parameter.agent.XMBranch;
+import org.rmj.engr.parameter.agent.XMBranch;
 import org.rmj.appdriver.agentfx.callback.IMasterDetail;
-import org.rmj.cas.parameter.agent.XMProject;
+import org.rmj.engr.parameter.agent.XMProject;
 
 public class InvTransfer{
     public InvTransfer(GRider foGRider, String fsBranchCD, boolean fbWithParent){
