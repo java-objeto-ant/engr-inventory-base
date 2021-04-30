@@ -50,16 +50,14 @@ file.reference.xmlbeans-3.0.2.jar=../lib/xmlbeans-3.0.2.jar
 includes=**
 jar.compress=false
 javac.classpath=\
-    ${libs.jpa20-persistence.classpath}:\
     ${file.reference.mysql-connector-java-5.1.49.jar}:\
+    ${libs.jpa20-persistence.classpath}:\
     ${reference.appdriver-agent.jar}:\
     ${reference.appdriver-agentfx.jar}:\
     ${reference.appdriver-agentfx-ui.jar}:\
     ${reference.appdriver-base.jar}:\
     ${reference.appdriver-constant.jar}:\
     ${reference.appdriver-iface.jar}:\
-    ${reference.cas-inventory-pojo.jar}:\
-    ${reference.cas-parameter-agent.jar}:\
     ${file.reference.bcprov-jdk16-145.jar}:\
     ${file.reference.commons-codec-1.11.jar}:\
     ${file.reference.commons-compress-1.9.jar}:\
@@ -72,7 +70,9 @@ javac.classpath=\
     ${file.reference.poi-4.0.1.jar}:\
     ${file.reference.poi-ooxml-4.0.1.jar}:\
     ${file.reference.poi-ooxml-schemas-4.0.1.jar}:\
-    ${file.reference.xmlbeans-3.0.2.jar}
+    ${file.reference.xmlbeans-3.0.2.jar}:\
+    ${reference.cas-inventory-pojo.jar}:\
+    ${reference.cas-parameter-agent.jar}
 # Space-separated list of extra javac options
 javac.compilerargs=
 javac.deprecation=false
@@ -107,12 +107,12 @@ jlink.launcher.name=engr-inventory-base
 meta.inf.dir=${src.dir}/META-INF
 mkdist.disabled=true
 platform.active=default_platform
-project.appdriver-agent=../appdriver-agent
-project.appdriver-agentfx=../appdriver-agentfx
-project.appdriver-agentfx-ui=../appdriver-agentfx-ui
-project.appdriver-base=../appdriver-base
-project.appdriver-constant=../appdriver-constant
-project.appdriver-iface=../appdriver-iface
+project.appdriver-agent=../../appdriver-agent
+project.appdriver-agentfx=../../appdriver-agentfx
+project.appdriver-agentfx-ui=../../appdriver-agentfx-ui
+project.appdriver-base=../../appdriver-base
+project.appdriver-constant=../../appdriver-constant
+project.appdriver-iface=../../appdriver-iface
 project.cas-inventory-pojo=../engr-inventory-pojo
 project.cas-parameter-agent=../engr-parameter-agent
 reference.appdriver-agent.jar=${project.appdriver-agent}/dist/appdriver-agent.jar
